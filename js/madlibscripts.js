@@ -4,8 +4,10 @@ $(document).ready(function() {
 
     $(".person").text(person1Input);
 
-    $("#letter").show();
 
+    $("#letter").show();
     event.preventDefault();
+
+
   });
 });
